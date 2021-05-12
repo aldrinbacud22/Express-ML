@@ -66,3 +66,4 @@
 {"date":"5/11/2021, 4:03:30 PM","method":"GET","url":"/hero"}, 
 {"date":"5/11/2021, 4:03:53 PM","method":"PUT","url":"/hero"}, 
 {"date":"5/11/2021, 4:08:44 PM","method":"POST","url":"/hero"}, 
+{"date":"5/11/2021, 5:09:14 PM","method":"GET","url":"/hero"}, 
