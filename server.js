@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(logger);// temporary logs
 
-mongoose.connect(process.env.dbConnection, {useNewUrlParser:true}, {useUnifiedTopology: true}, () => {
+mongoose.connect('mongodb+srv://expressMoba:expressMoba@heromoba.nx3ds.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser:true}, {useUnifiedTopology: true}, () => {
     console.log('connected to db');
 })
 

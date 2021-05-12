@@ -23,7 +23,7 @@ router.get('/hero', async (req,res) => {
     try {
         const allData = await Hero.find({})
         res.status(200).send({
-            data: hero,
+            data: allData,
             message: 'Success'
         })
     } catch (error) {
